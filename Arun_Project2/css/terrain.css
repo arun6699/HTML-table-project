@@ -1,0 +1,136 @@
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: silver;
+}
+
+h1 {
+    font-family: verdana, arial, sans-serif;
+    font-size: 3em;
+    line-height: 2em;
+    color: #3D061C;
+    padding-left: 450px;
+}
+
+
+h2 {
+    font-family: verdana, arial, sans-serif;
+    font-size: 2em;
+    color: #3D061C;
+    padding-left: 100px;
+
+}
+
+h3 {
+    font-family: verdana, arial, sans-serif;
+    font-size: 2em;
+    color: #3D061C;
+    padding-left: 100px;
+}
+
+h4 {
+    font-family: verdana, arial, sans-serif;
+    font-size: 1em;
+    color: #3D061C;
+    padding-left: 100px;
+}
+
+
+p {
+    font-family: verdana, arial, sans-serif;
+    font-size: 1.3em;
+    color: #3D061C;
+    padding-left: 100px;
+}
+
+
+nav a {
+    text-decoration: none;
+
+}
+
+nav a:link {
+    color: #3D061C;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #3D061C;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+}
+
+.details {
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#wrapper {
+    background-color: linen;
+    min-width: 500px;
+    max-width: 1300px;
+    box-shadow: 5px 10px #888888;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    background-color: lightgrey;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid;
+    border-top-color: #000;
+
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+    display: block;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+    background-color: linen;
+    border-spacing: 50;
+    border: 2px solid black;
+
+}
+
+td,
+th {
+
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #3D061C;
+    border: 2px solid black;
+}
+
+table tr:nth-of-type(odd) {
+    background: silver;
+}
